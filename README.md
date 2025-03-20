@@ -51,9 +51,6 @@ This repository contains an Apache Airflow DAG that automates an ETL pipeline fo
 - Update the `postgres_conn` and `openweather_api` connection IDs in Airflow if necessary.
 - Change the `s3` bucket path in the `load_to_s3` function if a different storage location is required.
 
-## License
-This project is licensed under the MIT License.
-
 ## Author
 Zoltan Jelovich
 
