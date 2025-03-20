@@ -11,13 +11,13 @@ This repository contains an Apache Airflow DAG that automates an ETL pipeline fo
 - Implements task dependencies using Airflow.
 
 ## DAG Workflow
-1. **Start Pipeline**: Initiates the ETL process.
-2. **API Availability Check**: Ensures the OpenWeather API is responsive.
-3. **Extract Weather Data**: Fetches raw weather data from the API for each city.
-4. **Transform Data**: Converts temperature values and formats the data into a structured table.
-5. **Load Data to PostgreSQL**: Stores the transformed data in an RDS PostgreSQL database.
-6. **Load Data to S3**: Saves the extracted weather data as CSV files in an AWS S3 bucket.
-7. **End Pipeline**: Marks the completion of the ETL workflow.
+1. Start Pipeline: Initiates the ETL process.
+2. API Availability Check: Ensures the OpenWeather API is responsive.
+3. Extract Weather Data: Fetches raw weather data from the API for each city.
+4. Transform Data: Converts temperature values and formats the data into a structured table.
+5. Load Data to PostgreSQL: Stores the transformed data in an RDS PostgreSQL database.
+6. Load Data to S3: Saves the extracted weather data as CSV files in an AWS S3 bucket.
+7. End Pipeline: Marks the completion of the ETL workflow.
 
 ## Setup Instructions
 ### Prerequisites
