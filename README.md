@@ -1,7 +1,7 @@
 # Weather Data ETL Pipeline with Apache Airflow
 
 ## Overview
-This repository contains an Apache Airflow DAG that automates an ETL (Extract, Transform, Load) pipeline for weather data. The DAG extracts weather data for multiple cities from the OpenWeather API, transforms the data into a structured format, and loads it into both an AWS S3 bucket and a PostgreSQL database.
+This repository contains an Apache Airflow DAG that automates an ETL pipeline for weather data. The DAG extracts weather data for multiple cities from the OpenWeather API, transforms the data into a structured format, and loads it into both an AWS S3 bucket and a PostgreSQL database.
 
 ## Features
 - Extracts real-time weather data for predefined cities using the OpenWeather API.
