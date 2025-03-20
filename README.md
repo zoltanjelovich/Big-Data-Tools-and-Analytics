@@ -19,13 +19,6 @@ This repository contains an Apache Airflow DAG that automates an ETL pipeline fo
 6. **Load Data to S3**: Saves the extracted weather data as CSV files in an AWS S3 bucket.
 7. **End Pipeline**: Marks the completion of the ETL workflow.
 
-## Technologies Used
-- **Apache Airflow**: Orchestrates the ETL workflow.
-- **OpenWeather API**: Provides real-time weather data.
-- **PostgreSQL**: Stores structured weather data.
-- **AWS S3**: Stores transformed data as CSV files.
-- **Pandas**: Used for data transformation.
-
 ## Setup Instructions
 ### Prerequisites
 - Apache Airflow installed and running.
@@ -53,4 +46,3 @@ This repository contains an Apache Airflow DAG that automates an ETL pipeline fo
 
 ## Author
 Zoltan Jelovich
-
